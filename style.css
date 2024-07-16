@@ -1,3 +1,8 @@
+*{
+  background: #2b5876;
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+	background: linear-gradient(to right, #4e4376, #2b5876);
+}
 .calculator {
   width: 200px;
   margin: 40px auto;
@@ -5,6 +10,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background: white;
 }
 
 .button-row {
@@ -36,4 +42,5 @@ button:hover {
   border: none;
   border-radius: 5px;
   text-align: right;
+  margin: 0px 0px 10px -8px;
 }
